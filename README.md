@@ -17,6 +17,13 @@ This service is responsible for routing requests to the correct service. Some of
 - Response validation
 - SSL termination
 
+### Pre-requisites
+
+- [KeyCloak](https://www.keycloak.org/) is used for authentication and authorization
+- Make sure that Keylcloak server is running and configured with the correct realm, client and user
+- Keycloak server should be running on `http://localhost:8181`
+- TODO: Add instructions on how to configure Keycloak
+
 ### Getting Started
 
 - Run `make test` to run the tests

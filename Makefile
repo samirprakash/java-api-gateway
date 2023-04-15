@@ -12,3 +12,6 @@ build:
 
 server:
 	mvn spring-boot:run
+
+docker:
+	docker build -t api-gateway .
